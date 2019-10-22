@@ -67,7 +67,7 @@ function bot(data, socket, questionNum) {
     else if (input.toLowerCase() != 'new york'){
       answer = 'How paw-some, I have never been there.';
       waitTime = 5000;
-      question = 'Are you a cat person or a *shudder* dog person? (Type in cat or dog)'
+      question = 'Are you a cat person or a *shudder* dog person? (Type in cat or dog)';
       }
   } else if (questionNum == 3) {
       if (input.toLowerCase() == 'cat'){
@@ -83,9 +83,11 @@ function bot(data, socket, questionNum) {
       }
       else {
         answer = "I dont understand! Put me out of my mew-sery and type in cat or dog!";
-        questionNum--;
         waitTime = 5000;
+        question = "Are you a cat person or a *shudder* dog person? (Type in cat or dog)";
+        questionNum--;
       }
+
     } else if (questionNum == 4) {
       answer = 'Yay here you go! https://www.youtube.com/watch?v=SB-qEYVdvXA';
       waitTime = 10000;
