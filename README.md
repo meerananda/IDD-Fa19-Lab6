@@ -1,6 +1,6 @@
 # ChatBot
 
-*A lab report by Meera Nandat*
+*A lab report by Meera Nanda*
 
 ## In this Report
 
